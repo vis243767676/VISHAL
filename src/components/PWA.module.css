@@ -1,0 +1,83 @@
+.statusbarIcon {
+  width: 360px;
+  height: 24px;
+  position: relative;
+}
+.xCloseIcon {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.companyName {
+  text-decoration: none;
+  position: absolute;
+  top: 22px;
+  left: calc(50% - 76.9px);
+  line-height: 20px;
+  font-weight: 500;
+  color: inherit;
+}
+.homePage {
+  width: 360px;
+  position: relative;
+  background-color: var(--surface-white);
+  border-bottom: 1px solid var(--borders-dividers);
+  box-sizing: border-box;
+  height: 64px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.buttonWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.productName {
+  text-decoration: none;
+  position: relative;
+  font-size: var(--app-mweb-header-h2-size);
+  line-height: 20px;
+  font-weight: 500;
+  color: var(--typography-jet-gray);
+  text-align: center;
+}
+.icons {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.homePage1 {
+  width: 360px;
+  background-color: var(--surface-white);
+  border-bottom: 1px solid var(--borders-dividers);
+  box-sizing: border-box;
+  height: 64px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-base) var(--padding-xl);
+  text-align: left;
+  font-size: var(--app-mweb-body-b2-medium-size);
+  color: var(--brand-primary);
+}
+.navigation,
+.pwa {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.pwa {
+  width: 360px;
+  text-align: center;
+  font-size: var(--app-mweb-header-h2-size);
+  color: var(--typography-jet-gray);
+  font-family: var(--app-mweb-labels-l4);
+}

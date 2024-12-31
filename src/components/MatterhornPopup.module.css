@@ -1,0 +1,15 @@
+.matterhornPopup {
+  position: relative;
+  border-radius: var(--br-5xs);
+  background-color: var(--surface-white);
+  width: 900px;
+  max-width: 100%;
+  max-height: 100%;
+  overflow: auto;
+}
+@media screen and (max-width: 650px) {
+  .matterhornPopup {
+    padding: var(--padding-3xs);
+    box-sizing: border-box;
+  }
+}

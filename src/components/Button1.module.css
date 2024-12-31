@@ -1,0 +1,32 @@
+.buttonContainer,
+.buttonWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.buttonWrapper {
+  flex: 1;
+  height: 40px;
+  align-items: flex-start;
+}
+.buttonContainer {
+  align-self: stretch;
+  align-items: center;
+}
+.button {
+  position: absolute;
+  bottom: 0;
+  left: calc(50% - 180px);
+  background-color: var(--surface-white);
+  width: 360px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--spacing-12) var(--padding-xl) var(--spacing-24);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--app-mweb-header-h3-size);
+  color: var(--surface-white);
+  font-family: var(--app-mweb-labels-l4);
+}

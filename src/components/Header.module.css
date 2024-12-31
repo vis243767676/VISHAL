@@ -1,0 +1,12 @@
+.header {
+  margin-top: -156px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  text-align: center;
+  font-size: var(--app-mweb-header-h2-size);
+  color: var(--typography-jet-gray);
+  font-family: var(--app-mweb-labels-l4);
+}

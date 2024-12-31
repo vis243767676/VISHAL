@@ -1,0 +1,31 @@
+.header,
+.header1 {
+  display: flex;
+  align-items: center;
+}
+.header {
+  margin: 0;
+  height: 24px;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  line-height: 20px;
+  font-weight: 500;
+  font-family: inherit;
+}
+.header1 {
+  width: 360px;
+  background-color: var(--surface-white);
+  height: 40px;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-5xs) var(--padding-xl);
+  box-sizing: border-box;
+  z-index: 1;
+  text-align: left;
+  font-size: var(--app-mweb-header-h2-size);
+  color: var(--typography-jet-gray);
+  font-family: var(--app-mweb-labels-l4);
+}

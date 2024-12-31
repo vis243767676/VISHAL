@@ -1,0 +1,23 @@
+.button {
+  position: relative;
+  font-size: var(--app-mweb-header-h3-size);
+  line-height: 18px;
+  font-weight: 500;
+  font-family: var(--app-mweb-labels-l4);
+  color: var(--surface-white);
+  text-align: center;
+}
+.ds2Button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-5xs) var(--padding-base);
+  background-color: var(--brand-primary);
+  align-self: stretch;
+  height: 40px;
+  border-radius: var(--br-5xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}

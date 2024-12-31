@@ -1,0 +1,22 @@
+.button {
+  position: relative;
+  line-height: 18px;
+  font-weight: 500;
+}
+.button1 {
+  align-self: stretch;
+  flex: 1;
+  border-radius: var(--br-5xs);
+  background-color: var(--brand-primary);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs) var(--padding-base);
+  box-sizing: border-box;
+  min-width: 84px;
+  text-align: left;
+  font-size: var(--app-mweb-header-h3-size);
+  color: var(--surface-white);
+  font-family: var(--app-mweb-labels-l4);
+}

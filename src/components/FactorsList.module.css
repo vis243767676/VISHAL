@@ -1,0 +1,153 @@
+.physical {
+  margin: 0;
+}
+.physicalActivity {
+  width: 100px;
+  height: 36px;
+  position: relative;
+  line-height: 18px;
+  font-weight: 500;
+  display: inline-block;
+}
+.frameChild,
+.s {
+  position: relative;
+}
+.frameChild {
+  flex: 1;
+  border-radius: var(--br-5xs);
+  background-color: var(--typography-extradark-red);
+}
+.s {
+  line-height: 14px;
+}
+.rectangleParent {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+.frameItem {
+  height: 1px;
+  position: relative;
+  border-radius: var(--br-5xs);
+  background-color: var(--surface-white);
+}
+.frameParent {
+  width: 128px;
+  height: 48px;
+  display: none;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+  gap: var(--gap-5xs);
+  z-index: 1;
+  font-size: var(--app-mweb-labels-l1-size);
+  color: var(--background-ash-gray);
+}
+.kcal {
+  width: 59px;
+  height: 18px;
+  position: relative;
+  line-height: 18px;
+  font-weight: 500;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.arrowChevronRightIcon {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  margin: 0 !important;
+  top: -1px;
+  right: 45px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.highImpact {
+  color: var(--background-ash-gray);
+}
+.sedentaryHighContainer {
+  width: 129px;
+  height: 14px;
+  position: relative;
+  font-size: var(--app-mweb-labels-l1-size);
+  line-height: 14px;
+  display: inline-block;
+  flex-shrink: 0;
+  color: var(--typography-extradark-red);
+}
+.kcalParent {
+  width: 128px;
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  gap: var(--spacing-8);
+}
+.accordionContentaccordionDef,
+.container {
+  width: 128px;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+.container {
+  overflow: hidden;
+}
+.accordionContentaccordionDef {
+  display: grid;
+  grid-template-rows: 1fr;
+}
+.accordionContentaccordionDef.accordion__open {
+  grid-template-rows: 1fr;
+}
+.accordionContentaccordionDef.accordion__close {
+  grid-template-rows: 0fr;
+}
+.factorsListChild {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+}
+.alertOctagonFillIcon {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  margin: 0 !important;
+  top: 6px;
+  left: 126px;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.factorsList {
+  height: 120px;
+  width: 156px;
+  border-radius: var(--radius-8);
+  background-color: var(--surface-white);
+  border: 2px solid var(--surface-extralight-bluishgray);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-xs);
+  position: relative;
+  gap: var(--gap-base);
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+  cursor: pointer;
+  text-align: left;
+  font-size: var(--app-mweb-header-h3-size);
+  color: var(--typography-jet-gray);
+  font-family: var(--app-mweb-labels-l4);
+}
